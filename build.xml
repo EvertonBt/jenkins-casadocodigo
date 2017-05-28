@@ -2,7 +2,7 @@
 <project name="minhasmoedas-fontes-bkp" default="bkp" basedir=".">
 
 	<property name="projeto" value="${ant.project.name}" />
-	<property name="bkp-dir" value="/tmp/bkp/" />
+	<property name="bkp-dir" value="bkp" />
 	<property name="diretorio-para-zipar1" value="sql" />
 	<property name="diretorio-para-zipar2" value="src" />
 
