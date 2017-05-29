@@ -1,8 +1,8 @@
 CREATE TABLE USERS
 (
-   USERNAME varchar2(36) PRIMARY KEY NOT NULL,
-   PASSWORD varchar2(36) NOT NULL,
-   ROLE varchar2(36) NOT NULL,
+   USERNAME varchar(36) PRIMARY KEY NOT NULL,
+   PASSWORD varchar(36) NOT NULL,
+   ROLE varchar(36) NOT NULL,
    ENABLED decimal(1)
 )
 ;
